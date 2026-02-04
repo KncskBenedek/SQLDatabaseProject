@@ -2,7 +2,7 @@ node
 {
     stage('hello')
     {
-        powershell -File '/Powershell/hello.ps1'   
+        powershell 'Write-Output "Hello, World!"'
     }
         
 }
