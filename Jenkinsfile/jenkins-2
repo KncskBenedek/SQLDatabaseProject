@@ -1,8 +1,7 @@
 node 
 {
-    stage('hello')
-    {
+
         powershell 'Write-Output "Hello, World!"'
-    }
+    
         
 }
